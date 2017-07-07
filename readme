@@ -1,0 +1,4 @@
+Spring boot 整合 Hibernate 
+dao成使用继承JpaRepository来实现
+
+public interface UserDao extends JpaRepository<Person, Integer>{}
